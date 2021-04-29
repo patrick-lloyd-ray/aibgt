@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/aibgt
+
+idspace: AIBGT
+base_url: /obo/aibgt
+
+products:
+- aibgt.owl: https://raw.githubusercontent.com/patrick-lloyd-ray/aibgt/main/aibgt.owl
+- aibgt.obo: https://raw.githubusercontent.com/patrick-lloyd-ray/aibgt/main/aibgt.obo
+
+term_browser: ontobee
+example_terms:
+- AIBGT_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/patrick-lloyd-ray/aibgt/v
+
+- prefix: /tracker/
+  replacement: https://github.com/patrick-lloyd-ray/aibgt/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/AIBGT?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/patrick-lloyd-ray/aibgt/main/
