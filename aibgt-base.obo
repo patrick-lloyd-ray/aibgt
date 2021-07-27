@@ -1,11 +1,11 @@
 format-version: 1.2
-data-version: aibgt/releases/2021-04-29/aibgt-base.owl
+data-version: aibgt/releases/2021-07-27/aibgt-base.owl
 ontology: aibgt/aibgt-base
 property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
-property_value: http://purl.org/dc/elements/1.1/title "AIBS Genotype Ontology" xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "Allen Institute for Brain Science Genotype Ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
-property_value: owl:versionInfo "2021-04-29" xsd:string
+property_value: owl:versionInfo "2021-07-27" xsd:string
 
 [Term]
 id: AIBGT:00000000
