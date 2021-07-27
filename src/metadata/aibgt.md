@@ -1,7 +1,7 @@
 ---
 layout: ontology_detail
 id: aibgt
-title: AIBS Genotype Ontology
+title: Allen Institute for Brain Science Genotype Ontology
 jobs:
   - id: https://travis-ci.org/patrick-lloyd-ray/aibgt
     type: travis-ci
@@ -13,25 +13,26 @@ contact:
   email: 
   label: 
   github: 
-description: AIBS Genotype Ontology is an ontology...
+description: Allen Institute for Brain Science Genotype Ontology is an ontology...
 domain: stuff
 homepage: https://github.com/patrick-lloyd-ray/aibgt
 products:
   - id: aibgt.owl
-    name: "AIBS Genotype Ontology main release in OWL format"
+    name: "Allen Institute for Brain Science Genotype Ontology main release in OWL format"
   - id: aibgt.obo
-    name: "AIBS Genotype Ontology additional release in OBO format"
+    name: "Allen Institute for Brain Science Genotype Ontology additional release in OBO format"
   - id: aibgt.json
-    name: "AIBS Genotype Ontology additional release in OBOJSon format"
+    name: "Allen Institute for Brain Science Genotype Ontology additional release in OBOJSon format"
   - id: aibgt/aibgt-base.owl
-    name: "AIBS Genotype Ontology main release in OWL format"
+    name: "Allen Institute for Brain Science Genotype Ontology main release in OWL format"
   - id: aibgt/aibgt-base.obo
-    name: "AIBS Genotype Ontology additional release in OBO format"
+    name: "Allen Institute for Brain Science Genotype Ontology additional release in OBO format"
   - id: aibgt/aibgt-base.json
-    name: "AIBS Genotype Ontology additional release in OBOJSon format"
+    name: "Allen Institute for Brain Science Genotype Ontology additional release in OBOJSon format"
 dependencies:
 - id: bfo
 - id: ro
+- id: pato
 
 tracker: https://github.com/patrick-lloyd-ray/aibgt/issues
 license:

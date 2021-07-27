@@ -1,6 +1,6 @@
 
 ![Build Status](https://github.com/patrick-lloyd-ray/aibgt/workflows/CI/badge.svg)
-# AIBS Genotype Ontology
+# Allen Institute for Brain Science Genotype Ontology
 
 This ontology... YOUR DESCRIPTION HERE
 
