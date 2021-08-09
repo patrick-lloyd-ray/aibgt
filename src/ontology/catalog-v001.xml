@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-<group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
-
-  
-  <uri name="http://purl.obolibrary.org/obo/aibgt/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/aibgt/imports/bfo_import.obo" uri="imports/bfo_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/aibgt/imports/ro_import.owl" uri="imports/ro_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/aibgt/imports/ro_import.obo" uri="imports/ro_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/aibgt/imports/pato_import.owl" uri="imports/pato_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/aibgt/imports/pato_import.obo" uri="imports/pato_import.obo"/>
-  
-
-
-  
-
-</group>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/geno/releases/2020-03-08/geno.owl" uri="https://raw.githubusercontent.com/monarch-initiative/GENO-ontology/develop/geno.owl"/>
+    <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
+        <uri name="http://purl.obolibrary.org/obo/aibgt/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/aibgt/imports/bfo_import.obo" uri="imports/bfo_import.obo"/>
+        <uri name="http://purl.obolibrary.org/obo/aibgt/imports/ro_import.owl" uri="imports/ro_import.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/aibgt/imports/ro_import.obo" uri="imports/ro_import.obo"/>
+        <uri name="http://purl.obolibrary.org/obo/aibgt/imports/pato_import.owl" uri="imports/pato_import.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/aibgt/imports/pato_import.obo" uri="imports/pato_import.obo"/>
+    </group>
 </catalog>
